@@ -1,0 +1,593 @@
+Linux 4.4.5-15.26.amzn1.x86_64 (ip-192-168-1-134) 	04/08/2016 	_x86_64_	(32 CPU)
+
+03:17:41 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:17:42 AM      eth0      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+03:17:42 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:17:42 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:17:43 AM      eth0     10.89      8.91      4.28      1.90      0.00      0.00      0.00
+03:17:43 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:17:43 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:17:44 AM      eth0  10280.61  21402.04    695.71  29708.71      0.00      0.00      0.00
+03:17:44 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:17:44 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:17:45 AM      eth0  74561.36 197954.55   4393.89 276038.64      0.00      0.00      0.00
+03:17:45 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:17:45 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:17:46 AM      eth0  74234.83 200573.03   4351.69 279742.21      0.00      0.00      0.00
+03:17:46 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:17:46 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:17:47 AM      eth0  75729.89 204087.36   4439.35 284642.50      0.00      0.00      0.00
+03:17:47 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:17:47 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:17:48 AM      eth0  74544.32 202225.00   4369.75 282045.05      0.00      0.00      0.00
+03:17:48 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:17:48 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:17:49 AM      eth0  75613.95 207612.79   4432.49 289559.50      0.00      0.00      0.00
+03:17:49 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:17:49 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:17:50 AM      eth0  78288.24 211750.59   4589.30 295327.28      0.00      0.00      0.00
+03:17:50 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:17:50 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:17:51 AM      eth0  74800.00 202591.95   4384.88 282555.33      0.00      0.00      0.00
+03:17:51 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:17:51 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:17:52 AM      eth0  74537.50 200972.73   4369.38 280295.46      0.00      0.00      0.00
+03:17:52 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:17:52 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:17:53 AM      eth0  74326.14 201722.73   4356.90 281341.48      0.00      0.00      0.00
+03:17:53 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:17:53 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:17:54 AM      eth0  75764.37 204910.34   4441.37 285787.23      0.00      0.00      0.00
+03:17:54 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:17:54 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:17:55 AM      eth0  76059.30 208313.95   4458.51 290540.46      0.00      0.00      0.00
+03:17:55 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:17:55 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:17:56 AM      eth0  74043.18 200996.59   4340.39 280333.32      0.00      0.00      0.00
+03:17:56 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:17:56 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:17:57 AM      eth0  74057.47 202254.02   4341.22 282093.27      0.00      0.00      0.00
+03:17:57 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:17:57 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:17:58 AM      eth0  74056.82 200454.55   4341.24 279572.75      0.00      0.00      0.00
+03:17:58 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:17:58 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:17:59 AM      eth0  74790.80 202755.17   4384.23 282786.05      0.00      0.00      0.00
+03:17:59 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:17:59 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:18:00 AM      eth0  75763.22 206126.44   4442.36 287481.83      0.00      0.00      0.00
+03:18:00 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:18:00 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:18:01 AM      eth0  44209.89 123704.40   2612.84 172902.91      0.00      0.00      0.00
+03:18:01 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:18:01 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:18:02 AM      eth0  48921.43 118271.43   2947.69 164987.50      0.00      0.00      0.00
+03:18:02 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:18:02 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:18:03 AM      eth0  77898.88 199796.63   4572.69 278849.53      0.00      0.00      0.00
+03:18:03 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:18:03 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:18:04 AM      eth0  79757.47 206794.25   4681.56 288605.03      0.00      0.00      0.00
+03:18:04 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:18:04 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:18:05 AM      eth0  78872.73 203356.82   4624.62 283711.57      0.00      0.00      0.00
+03:18:05 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:18:05 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:18:06 AM      eth0  81861.18 211796.47   4801.31 295632.36      0.00      0.00      0.00
+03:18:06 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:18:06 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:18:07 AM      eth0  81850.00 209052.33   4801.07 291702.43      0.00      0.00      0.00
+03:18:07 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:18:07 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:18:08 AM      eth0  77101.12 199053.93   4520.37 277660.69      0.00      0.00      0.00
+03:18:08 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:18:08 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:18:09 AM      eth0  78665.52 202671.26   4612.70 282716.89      0.00      0.00      0.00
+03:18:09 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:18:09 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:18:10 AM      eth0  77221.35 197435.96   4528.19 275416.34      0.00      0.00      0.00
+03:18:10 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:18:10 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:18:11 AM      eth0  79211.49 202544.83   4643.76 282519.41      0.00      0.00      0.00
+03:18:11 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:18:11 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:18:12 AM      eth0  78802.30 203152.87   4620.01 283355.89      0.00      0.00      0.00
+03:18:12 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:18:12 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:18:13 AM      eth0  80176.74 206397.67   4702.93 287935.48      0.00      0.00      0.00
+03:18:13 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:18:13 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:18:14 AM      eth0  84477.78 216760.49   4953.71 302354.01      0.00      0.00      0.00
+03:18:14 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:18:14 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:18:15 AM      eth0  79487.21 201760.47   4661.67 281420.62      0.00      0.00      0.00
+03:18:15 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:18:15 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:18:16 AM      eth0  79851.16 207602.33   4681.56 289597.35      0.00      0.00      0.00
+03:18:16 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:18:16 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:18:17 AM      eth0  78713.79 201950.57   4618.20 281744.38      0.00      0.00      0.00
+03:18:17 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:18:17 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:18:18 AM      eth0  72532.95 193988.64   4259.38 270631.78      0.00      0.00      0.00
+03:18:18 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:18:18 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:18:19 AM      eth0  50769.89 127146.24   2991.41 177324.44      0.00      0.00      0.00
+03:18:19 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:18:19 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:18:20 AM      eth0  71035.96 177077.53   4214.03 246851.89      0.00      0.00      0.00
+03:18:20 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:18:20 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:18:21 AM      eth0  77061.11 196341.11   4518.33 273876.66      0.00      0.00      0.00
+03:18:21 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:18:21 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:18:22 AM      eth0  77598.89 196876.67   4550.07 274628.76      0.00      0.00      0.00
+03:18:22 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:18:22 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:18:23 AM      eth0  81828.74 207754.02   4796.83 289773.54      0.00      0.00      0.00
+03:18:23 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:18:23 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:18:24 AM      eth0  83403.45 209434.48   4890.67 292225.03      0.00      0.00      0.00
+03:18:24 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:18:24 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:18:25 AM      eth0  85165.88 212835.29   4994.03 296872.88      0.00      0.00      0.00
+03:18:25 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:18:25 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:18:26 AM      eth0  85458.33 214422.62   5011.37 299116.92      0.00      0.00      0.00
+03:18:26 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:18:26 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:18:27 AM      eth0  83205.88 210874.12   4878.33 294129.08      0.00      0.00      0.00
+03:18:27 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:18:27 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:18:28 AM      eth0  83755.95 212419.05   4910.14 296294.85      0.00      0.00      0.00
+03:18:28 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:18:28 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:18:29 AM      eth0  79065.91 201345.45   4635.39 280847.82      0.00      0.00      0.00
+03:18:29 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:18:29 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:18:30 AM      eth0  84530.12 216251.81   4956.48 301608.69      0.00      0.00      0.00
+03:18:30 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:18:30 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:18:31 AM      eth0  80154.65 201324.42   4698.84 280787.78      0.00      0.00      0.00
+03:18:31 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:18:31 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:18:32 AM      eth0  85145.12 213812.20   4991.86 298203.58      0.00      0.00      0.00
+03:18:32 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:18:32 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:18:33 AM      eth0  86508.75 218733.75   5070.88 305071.68      0.00      0.00      0.00
+03:18:33 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:18:33 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:18:34 AM      eth0  87060.49 219972.84   5106.35 306791.49      0.00      0.00      0.00
+03:18:34 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:18:34 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:18:35 AM      eth0  94897.33 239006.67   5567.72 333326.93      0.00      0.00      0.00
+03:18:35 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:18:35 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:18:36 AM      eth0  58372.53 144859.34   3436.03 201952.01      0.00      0.00      0.00
+03:18:36 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:18:36 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:18:37 AM      eth0  72050.60 176672.29   4266.20 246261.97      0.00      0.00      0.00
+03:18:37 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:18:37 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:18:38 AM      eth0  81072.94 208505.88   4752.29 290808.22      0.00      0.00      0.00
+03:18:38 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:18:38 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:18:39 AM      eth0  83297.59 213762.65   4882.75 298138.34      0.00      0.00      0.00
+03:18:39 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:18:39 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:18:40 AM      eth0  79324.42 205513.95   4650.03 286652.29      0.00      0.00      0.00
+03:18:40 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:18:40 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:18:41 AM      eth0  82071.76 208058.82   4810.86 290178.39      0.00      0.00      0.00
+03:18:41 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:18:41 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:18:42 AM      eth0  81721.18 208523.53   4790.38 290828.10      0.00      0.00      0.00
+03:18:42 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:18:42 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:18:43 AM      eth0  80290.70 206167.44   4706.42 287543.62      0.00      0.00      0.00
+03:18:43 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:18:43 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:18:44 AM      eth0  82816.67 211944.05   4854.57 295614.67      0.00      0.00      0.00
+03:18:44 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:18:44 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:18:45 AM      eth0  79228.74 201780.46   4644.45 281424.89      0.00      0.00      0.00
+03:18:45 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:18:45 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:18:46 AM      eth0  79598.84 203989.53   4666.01 284507.66      0.00      0.00      0.00
+03:18:46 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:18:46 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:18:47 AM      eth0  82659.52 210308.33   4846.66 293309.46      0.00      0.00      0.00
+03:18:47 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:18:47 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:18:48 AM      eth0  81725.00 206769.05   4791.20 288381.49      0.00      0.00      0.00
+03:18:48 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:18:48 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:18:49 AM      eth0  86241.46 218181.71   5055.45 304296.08      0.00      0.00      0.00
+03:18:49 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:18:49 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:18:50 AM      eth0  85398.78 216071.95   5005.85 301355.89      0.00      0.00      0.00
+03:18:50 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:18:50 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:18:51 AM      eth0  79668.97 202091.95   4673.34 281852.13      0.00      0.00      0.00
+03:18:51 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:18:51 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:18:52 AM      eth0  74935.16 187324.18   4396.12 261246.38      0.00      0.00      0.00
+03:18:52 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:18:52 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:18:53 AM      eth0  76220.48 188974.70   4478.83 263517.39      0.00      0.00      0.00
+03:18:53 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:18:53 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:18:54 AM      eth0  69364.20 171659.26   4100.89 239269.75      0.00      0.00      0.00
+03:18:54 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:18:54 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:18:55 AM      eth0  84209.76 214485.37   4940.13 299132.01      0.00      0.00      0.00
+03:18:55 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:18:55 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:18:56 AM      eth0  82297.62 210482.14   4824.16 293572.56      0.00      0.00      0.00
+03:18:56 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:18:56 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:18:57 AM      eth0  83307.32 214862.20   4883.30 299671.93      0.00      0.00      0.00
+03:18:57 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:18:57 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:18:58 AM      eth0  84195.12 214964.63   4935.54 299809.68      0.00      0.00      0.00
+03:18:58 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:18:58 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:18:59 AM      eth0  82463.86 212327.71   4833.95 296141.27      0.00      0.00      0.00
+03:18:59 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:18:59 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:19:00 AM      eth0  83570.73 213547.56   4898.76 297855.40      0.00      0.00      0.00
+03:19:00 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:19:00 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:19:01 AM      eth0  81901.19 208919.05   4800.89 291390.92      0.00      0.00      0.00
+03:19:01 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:19:01 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:19:02 AM      eth0  77828.41 198784.09   4562.13 277242.98      0.00      0.00      0.00
+03:19:02 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:19:02 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:19:03 AM      eth0  82708.43 211155.42   4849.62 294498.41      0.00      0.00      0.00
+03:19:03 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:19:03 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:19:04 AM      eth0  88508.86 226829.11   5188.36 316360.97      0.00      0.00      0.00
+03:19:04 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:19:04 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:19:05 AM      eth0  88200.00 224700.00   5170.11 313392.84      0.00      0.00      0.00
+03:19:05 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:19:05 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:19:06 AM      eth0  83236.14 214844.58   4879.88 299651.52      0.00      0.00      0.00
+03:19:06 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:19:06 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:19:07 AM      eth0  83668.67 212745.78   4906.27 296716.89      0.00      0.00      0.00
+03:19:07 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:19:07 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:19:08 AM      eth0  79714.29 205725.00   4674.84 286917.36      0.00      0.00      0.00
+03:19:08 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:19:08 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:19:09 AM      eth0  76320.45 194697.73   4479.12 271526.79      0.00      0.00      0.00
+03:19:09 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:19:09 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:19:10 AM      eth0  79076.83 200969.51   4638.48 280271.13      0.00      0.00      0.00
+03:19:10 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:19:10 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:19:11 AM      eth0  74766.67 190979.49   4393.88 266336.86      0.00      0.00      0.00
+03:19:11 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:19:11 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:19:12 AM      eth0  81759.26 208476.54   4815.82 290681.34      0.00      0.00      0.00
+03:19:12 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:19:12 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:19:13 AM      eth0  80800.00 206925.00   4736.31 288596.93      0.00      0.00      0.00
+03:19:13 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:19:13 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:19:14 AM      eth0  82739.02 214400.00   4850.10 299028.94      0.00      0.00      0.00
+03:19:14 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:19:14 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:19:15 AM      eth0  82236.14 211221.69   4820.71 294588.54      0.00      0.00      0.00
+03:19:15 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:19:15 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:19:16 AM      eth0  80764.71 206716.47   4734.45 288307.80      0.00      0.00      0.00
+03:19:16 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:19:16 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:19:17 AM      eth0  81973.49 212708.43   4805.30 296663.45      0.00      0.00      0.00
+03:19:17 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:19:17 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:19:18 AM      eth0  79576.19 210542.86   4664.59 293647.86      0.00      0.00      0.00
+03:19:18 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:19:18 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:19:19 AM      eth0  78434.48 203558.62   4597.64 283911.24      0.00      0.00      0.00
+03:19:19 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:19:19 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:19:20 AM      eth0  86387.65 224055.56   5065.26 312484.98      0.00      0.00      0.00
+03:19:20 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:19:20 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:19:21 AM      eth0  85657.50 221462.50   5021.46 308872.74      0.00      0.00      0.00
+03:19:21 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:19:21 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:19:22 AM      eth0  87179.75 226008.86   5111.05 315214.90      0.00      0.00      0.00
+03:19:22 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:19:22 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:19:23 AM      eth0  85761.73 220201.23   5027.27 307112.70      0.00      0.00      0.00
+03:19:23 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:19:23 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:19:24 AM      eth0  84334.15 217495.12   4945.55 303335.87      0.00      0.00      0.00
+03:19:24 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:19:24 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:19:25 AM      eth0  84654.88 217541.46   4965.13 303396.10      0.00      0.00      0.00
+03:19:25 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:19:25 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:19:26 AM      eth0  72022.99 180564.37   4227.48 251803.14      0.00      0.00      0.00
+03:19:26 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:19:26 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:19:27 AM      eth0  72787.64 186511.24   4269.27 260115.03      0.00      0.00      0.00
+03:19:27 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:19:27 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:19:28 AM      eth0  64607.78 165905.56   3795.60 231352.42      0.00      0.00      0.00
+03:19:28 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:19:28 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:19:29 AM      eth0  73702.30 188443.68   4331.85 262782.25      0.00      0.00      0.00
+03:19:29 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:19:29 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:19:30 AM      eth0  75228.41 194159.09   4409.98 270796.50      0.00      0.00      0.00
+03:19:30 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:19:30 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:19:31 AM      eth0  78274.42 202446.51   4589.10 282352.69      0.00      0.00      0.00
+03:19:31 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:19:31 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:19:32 AM      eth0  82442.68 214129.27   4832.84 298642.53      0.00      0.00      0.00
+03:19:32 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:19:32 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:19:33 AM      eth0  80303.53 207140.00   4707.35 288900.14      0.00      0.00      0.00
+03:19:33 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:19:33 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:19:34 AM      eth0  81916.67 210670.24   4801.77 293822.12      0.00      0.00      0.00
+03:19:34 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:19:34 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:19:35 AM      eth0  81946.99 212092.77   4803.64 295809.37      0.00      0.00      0.00
+03:19:35 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:19:35 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:19:36 AM      eth0  80766.27 210746.99   4734.57 293934.03      0.00      0.00      0.00
+03:19:36 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:19:36 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:19:37 AM      eth0  84276.25 220776.25   4941.51 307918.01      0.00      0.00      0.00
+03:19:37 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:19:37 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:19:38 AM      eth0  84212.50 220118.75   4936.79 306997.65      0.00      0.00      0.00
+03:19:38 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:19:38 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:19:39 AM      eth0  79596.39 210008.43   4666.81 292905.59      0.00      0.00      0.00
+03:19:39 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:19:39 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:19:40 AM      eth0  78297.65 204317.65   4589.80 284961.56      0.00      0.00      0.00
+03:19:40 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:19:40 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:19:41 AM      eth0  82217.28 214618.52   4820.68 299323.20      0.00      0.00      0.00
+03:19:41 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:19:41 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:19:42 AM      eth0  81265.06 213116.87   4766.31 297223.47      0.00      0.00      0.00
+03:19:42 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:19:42 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:19:43 AM      eth0  68636.56 178563.44   4029.02 249026.43      0.00      0.00      0.00
+03:19:43 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:19:43 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:19:44 AM      eth0  72598.86 189089.77   4259.10 263699.90      0.00      0.00      0.00
+03:19:44 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:19:44 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:19:45 AM      eth0  66774.44 171187.78   3920.72 238746.85      0.00      0.00      0.00
+03:19:45 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:19:45 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:19:46 AM      eth0  73570.11 185485.06   4315.85 258666.62      0.00      0.00      0.00
+03:19:46 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:19:46 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:19:47 AM      eth0  73382.42 187702.20   4301.65 261786.55      0.00      0.00      0.00
+03:19:47 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:19:47 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:19:48 AM      eth0  73417.58 186063.74   4304.99 259510.28      0.00      0.00      0.00
+03:19:48 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:19:48 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:19:49 AM      eth0  74487.78 190062.22   4366.41 265076.57      0.00      0.00      0.00
+03:19:49 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:19:49 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:19:50 AM      eth0  74384.27 190495.51   4360.26 265684.45      0.00      0.00      0.00
+03:19:50 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:19:50 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:19:51 AM      eth0  74257.30 190543.82   4352.86 265754.66      0.00      0.00      0.00
+03:19:51 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:19:51 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:19:52 AM      eth0  76642.53 196644.83   4492.58 274263.99      0.00      0.00      0.00
+03:19:52 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:19:52 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:19:53 AM      eth0  77941.38 196937.93   4568.86 274668.15      0.00      0.00      0.00
+03:19:53 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:19:53 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:19:54 AM      eth0  78854.65 202551.16   4623.44 282493.77      0.00      0.00      0.00
+03:19:54 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:19:54 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:19:55 AM      eth0  89360.26 228028.21   5238.33 318024.79      0.00      0.00      0.00
+03:19:55 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:19:55 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:19:56 AM      eth0  83659.76 212986.59   4904.61 297049.48      0.00      0.00      0.00
+03:19:56 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:19:56 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:19:57 AM      eth0  88097.47 226198.73   5166.04 315536.60      0.00      0.00      0.00
+03:19:57 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:19:57 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:19:58 AM      eth0  85538.27 218158.02   5014.68 304270.32      0.00      0.00      0.00
+03:19:58 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:19:58 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:19:59 AM      eth0  89234.18 227149.37   5233.44 316795.74      0.00      0.00      0.00
+03:19:59 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:19:59 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:20:00 AM      eth0  78431.76 199116.47   4602.72 277685.90      0.00      0.00      0.00
+03:20:00 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:20:00 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:20:01 AM      eth0  81151.81 205812.05   4760.93 287033.01      0.00      0.00      0.00
+03:20:01 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:20:01 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:20:02 AM      eth0  75900.00 189709.30   4456.84 264541.11      0.00      0.00      0.00
+03:20:02 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:20:02 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:20:03 AM      eth0  89218.29 212856.10   5233.08 296934.57      0.00      0.00      0.00
+03:20:03 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:20:03 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:20:04 AM      eth0  83842.86 189298.90   4915.66 264020.62      0.00      0.00      0.00
+03:20:04 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:20:04 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:20:05 AM      eth0  83774.44 196823.33   4911.86 274704.91      0.00      0.00      0.00
+03:20:05 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:20:05 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:20:06 AM      eth0  86812.33 246406.85   5091.38 344003.11      0.00      0.00      0.00
+03:20:06 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:20:06 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:20:07 AM      eth0  12674.00  50212.00    748.90  70901.67      0.00      0.00      0.00
+03:20:07 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:20:07 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:20:08 AM      eth0     27.00     41.00      5.56     31.58      0.00      0.00      0.00
+03:20:08 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+
+03:20:08 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s
+03:20:09 AM      eth0      6.00     14.00      1.39      0.74      0.00      0.00      0.00
+03:20:09 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00

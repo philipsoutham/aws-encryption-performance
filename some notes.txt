@@ -1,0 +1,27 @@
+https://wiki.archlinux.org/index.php/Dm-crypt/Encrypting_a_non-root_file_system
+
+/etc/fstab
+
+/dev/xvdb   /media/gpt-p ext4  defaults,noatime 0 0
+/dev/xvdc   /media/gpt-e ext4  defaults,noatime 0 0
+/dev/xvdf   /media/io-p ext4  defaults,noatime 0 0
+/dev/xvdg   /media/io-e ext4  defaults,noatime 0 0
+/dev/xvdp   /media/eph-p ext4  defaults,noatime 0 0
+/dev/mapper/enc-ephem /media/eph-e ext4  defaults,noatime 0 0
+
+/etc/crypttab
+enc-ephem /dev/xvdq /boot/xvdq.keyfile
+
+haveged -n 8192 -f /boot/xvdq.keyfile
+
+cryptsetup -v --cipher aes-xts-plain64 --key-size 256 --hash sha256 --iter-time 2000 --use-urandom --key-file /tmp/xvdq.keyfile luksFormat /dev/xvdq
+cryptsetup open --key-file /tmp/xvdq.keyfile  /dev/xvdq enc-ephem
+
+
+sar -j LABEL -d 1
+sar -p -d 1
+sar -u ALL 1
+
+time for d in eph-e eph-p io-e io-p; do bonnie++ -d "/media/${d}/data" -r 15042 -n 1024 -x 1 -q -f  >> "bonnie.${d}.txt"; done
+
+bonnie++ block size might 128k
