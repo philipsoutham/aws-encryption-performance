@@ -25,3 +25,239 @@ sar -u ALL 1
 time for d in eph-e eph-p io-e io-p; do bonnie++ -d "/media/${d}/data" -r 15042 -n 1024 -x 1 -q -f  >> "bonnie.${d}.txt"; done
 
 bonnie++ block size might 128k
+
+
+############################### From google doc ##############################################
+time aws s3 cp data.img s3://psoutham-encryption-test/data2.img --sse "aws:kms" --sse-kms-key-id a9de2efa-8278-420c-86ea-272881fcde8d --storage-class REDUCED_REDUNDANCY                                     
+upload: ./data.img to s3://psoutham-encryption-test/data2.img
+
+real    1m31.193s
+user    2m8.632s
+sys     0m23.280s
+
+
+real    1m30.787s
+user    2m1.728s
+sys     0m21.824s
+
+real    1m30.325s
+user    2m8.360s
+sys     0m23.848s
+
+
+time aws s3 cp data.img s3://psoutham-encryption-test/data3.img  --storage-class REDUCED_REDUNDANCY                                                                                                          
+upload: ./data.img to s3://psoutham-encryption-test/data3.img
+
+real    1m57.470s
+user    1m45.984s
+sys     0m25.308s
+
+real    1m42.317s
+user    1m45.720s
+sys     0m23.480s
+
+real    1m46.725s
+user    1m47.388s
+sys     0m24.232s
+
+
+
+time aws s3 cp data50.img s3://psoutham-encryption-test/data50-p-1.img  --storage-class REDUCED_REDUNDANCY                                                                                                   
+upload: ./data50.img to s3://psoutham-encryption-test/data50-p-1.img
+
+real    8m14.081s
+user    8m28.512s
+sys     2m9.796s
+
+time aws s3 cp data50.img s3://psoutham-encryption-test/data50-s-1.img  --storage-class REDUCED_REDUNDANCY --sse "aws:kms" --sse-kms-key-id a9de2efa-8278-420c-86ea-272881fcde8d                             
+upload: ./data50.img to s3://psoutham-encryption-test/data50-s-1.img
+
+real    7m37.421s
+user    10m3.160s
+sys     1m59.808s
+
+
+for i in 1 2 3 4 5 6 7 8 9 0; do aws s3 cp data30.gpg "s3://psoutham-encryption-test/_async0${i}.gpg"  --storage-class REDUCED_REDUNDANCY --endpoint-url https://s3-us-west-2.amazonaws.com & done; wait;
+
+for i in 0 1 2 3 4 5 6 7 8 9; do aws s3 cp data30.gpg "s3://psoutham-encryption-test/${i}__testdata_sse.gpg"  --storage-class REDUCED_REDUNDANCY --endpoint-url https://s3-us-west-2.amazonaws.com --sse "aws:kms" --sse-kms-key-id a9de2efa-8278-420c-86ea-272881fcde8d; sleep 7; done
+
+sar -p 1 | tee async-yes-sse-yes-ssl-chunk_64-concurr_40-cpu.txt
+
+sar -p -n DEV 1 | tee async-yes-sse-yes-ssl-chunk_64-concurr_40-network.txt 
+
+for d in gpt-p gpt-e io-p io-e; do  bonnie++ -b -s 70000 -q -d "/media/${d}/data" -r 30387 > "bonnie.${d}.txt"; done
+
+sudo mount -t ramfs -o size=40g ramfs ramfs
+
+for i in 1 2 3 4 5; do
+ for j in 1 2 3 4 5 6 7 8 9 0; do
+    aws s3 cp data.30g "s3://psoutham-encryption-test/output/${j}_async0${i}.gpg"  --storage-class REDUCED_REDUNDANCY --endpoint-url https://s3-us-west-2.amazonaws.com --sse "aws:kms" --sse-kms-key-id a9de2efa-8278-420c-86ea-272881fcde8d &
+ done
+ wait
+done
+
+ openssl ciphers -v 'FIPS+TLSv1.2'
+Install python27-pyOpenSSL python27-pyasn1 
+sudo pip install ndg-httpsclient
+Modprobe aes
+Modprobe sha256
+Modprobe sha256-sse
+[ec2-user@ip-192-168-1-134 ~]$ sudo modprobe sha1-ssse3
+[ec2-user@ip-192-168-1-134 ~]$ sudo modprobe sha512-ssse3
+sudo modprobe des3_ede
+sudo modprobe des
+
+ip link set mtu 9000 dev eth0
+https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/enhanced-networking.html#ubuntu-enhanced-networking-procedure
+
+curl -L -o ixgbevf.tar.gz "http://downloads.sourceforge.net/project/e1000/ixgbevf%20stable/3.1.2/ixgbevf-3.1.2.tar.gz?r=https%3A%2F%2Fsourceforge.net%2Fprojects%2Fe1000%2Ffiles%2Fixgbevf%2520stable%2F3.1.2%2F&ts=1461034007&use_mirror=netix"
+https://docs.aws.amazon.com/cli/latest/topic/s3-config.html
+aws configure set default.s3.max_concurrent_requests 45
+aws configure set default.s3.max_queue_size 10000
+aws configure set default.s3.multipart_threshold 64MB
+aws configure set default.s3.multipart_chunksize 128MB
+
+vpc endpoint enabled for s3
+
+
+https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/network_mtu.html
+
+for i in 1 2 3 4 5; do
+    sar -p 1 > "async_yes_ssl_yes_sse-cpu.${i}.sar.txt" &
+    sar_cpu=$!
+
+    sar -p -n DEV 1 > "async_yes_ssl_yes_sse-network.${i}.sar.txt" &
+    sar_network=$!
+    
+    for j in 1 2 3 4 5 6 7 8 9 0; do
+	aws s3 cp data.30g "s3://psoutham-encryption-test/output/${j}_async0${i}.gpg"  --storage-class REDUCED_REDUNDANCY --endpoint-url https://s3-us-west-2.amazonaws.com --sse "aws:kms" --sse-kms-key-id a9de2efa-8278-420c-86ea-272881fcde8d &
+	usleep 300000 
+    done
+    wait
+    kill "${sar_cpu}" "${sar_network}"
+done
+
+
+for i in 1 2; do
+    sar -p 1 > "async_yes_ssl_yes_sse-cpu.${i}.sar.txt" &
+    local sar_cpu=$!
+
+    sar -p -n DEV 1 > "async_yes_ssl_yes_sse-network.${i}.sar.txt" &
+    local sar_network=$!
+
+    local jobs
+    for j in 1 2; do
+	aws s3 cp data.30g "s3://psoutham-encryption-test/output/${j}_async0${i}.gpg"  --storage-class REDUCED_REDUNDANCY --endpoint-url https://s3-us-west-2.amazonaws.com --sse "aws:kms" --sse-kms-key-id a9de2efa-8278-420c-86ea-272881fcde8d &
+	jobs="${jobs} $!"
+	usleep 300000 
+    done
+    echo "waiting for ${jobs}"
+    wait ${jobs}
+    kill "${sar_cpu}" "${sar_network}"
+done
+
+import botocore.vendored.requests.packages.urllib3.util.ssl_
+botocore.vendored.requests.packages.urllib3.util.ssl_.DEFAULT_CIPHERS = "AES128-SHA" 
+#botocore.vendored.requests.packages.urllib3.util.ssl_.DEFAULT_CIPHERS = "aNULL" # If this is working, https should not work if this is enabled
+
+The biggest hit is coming with session instantiation, maybe increase the block size further?
+
+
+### cryptodev testing
+
+#### Before
+[vagrant@localhost ~]$ openssl speed -evp aes-128-cbc
+Doing aes-128-cbc for 3s on 16 size blocks: 115880581 aes-128-cbc's in 3.00s
+Doing aes-128-cbc for 3s on 64 size blocks: 31280581 aes-128-cbc's in 2.99s
+Doing aes-128-cbc for 3s on 256 size blocks: 8032585 aes-128-cbc's in 3.00s
+Doing aes-128-cbc for 3s on 1024 size blocks: 2011808 aes-128-cbc's in 3.00s
+Doing aes-128-cbc for 3s on 8192 size blocks: 252362 aes-128-cbc's in 3.00s
+OpenSSL 1.0.1e-fips 11 Feb 2013
+built on: Tue Mar  1 15:07:53 UTC 2016
+options:bn(64,64) md2(int) rc4(16x,int) des(idx,cisc,16,int) aes(partial) idea(int) blowfish(idx) 
+compiler: gcc -fPIC -DOPENSSL_PIC -DZLIB -DOPENSSL_THREADS -D_REENTRANT -DDSO_DLFCN -DHAVE_DLFCN_H -DKRB5_MIT -m64 -DL_ENDIAN -DTERMIO -Wall -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches   -m64 -mtune=generic -Wa,--noexecstack -DPURIFY -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DWHIRLPOOL_ASM -DGHASH_ASM
+The 'numbers' are in 1000s of bytes per second processed.
+type             16 bytes     64 bytes    256 bytes   1024 bytes   8192 bytes
+aes-128-cbc     618029.77k   669550.90k   685447.25k   686697.13k   689116.50k
+[vagrant@localhost ~]$ openssl speed -evp sha1
+Doing sha1 for 3s on 16 size blocks: 12388696 sha1's in 3.00s
+Doing sha1 for 3s on 64 size blocks: 8849264 sha1's in 3.00s
+Doing sha1 for 3s on 256 size blocks: 4604922 sha1's in 3.00s
+Doing sha1 for 3s on 1024 size blocks: 1723005 sha1's in 3.00s
+Doing sha1 for 3s on 8192 size blocks: 257996 sha1's in 3.00s
+OpenSSL 1.0.1e-fips 11 Feb 2013
+built on: Tue Mar  1 15:07:53 UTC 2016
+options:bn(64,64) md2(int) rc4(16x,int) des(idx,cisc,16,int) aes(partial) idea(int) blowfish(idx) 
+compiler: gcc -fPIC -DOPENSSL_PIC -DZLIB -DOPENSSL_THREADS -D_REENTRANT -DDSO_DLFCN -DHAVE_DLFCN_H -DKRB5_MIT -m64 -DL_ENDIAN -DTERMIO -Wall -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches   -m64 -mtune=generic -Wa,--noexecstack -DPURIFY -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DWHIRLPOOL_ASM -DGHASH_ASM
+The 'numbers' are in 1000s of bytes per second processed.
+type             16 bytes     64 bytes    256 bytes   1024 bytes   8192 bytes
+sha1             66073.05k   188784.30k   392953.34k   588119.04k   704501.08k
+
+
+[vagrant@localhost ~]$ openssl speed -evp sha1                                                                                                                                                                                                
+Doing sha1 for 3s on 16 size blocks: 12347726 sha1's in 2.98s
+Doing sha1 for 3s on 64 size blocks: 8857289 sha1's in 2.98s
+Doing sha1 for 3s on 256 size blocks: 4903862 sha1's in 2.98s
+Doing sha1 for 3s on 1024 size blocks: 1723963 sha1's in 2.99s
+Doing sha1 for 3s on 8192 size blocks: 263921 sha1's in 2.98s
+OpenSSL 1.0.1e-fips 11 Feb 2013
+built on: Tue Mar  1 15:07:53 UTC 2016
+options:bn(64,64) md2(int) rc4(16x,int) des(idx,cisc,16,int) aes(partial) idea(int) blowfish(idx) 
+compiler: gcc -fPIC -DOPENSSL_PIC -DZLIB -DOPENSSL_THREADS -D_REENTRANT -DDSO_DLFCN -DHAVE_DLFCN_H -DKRB5_MIT -m64 -DL_ENDIAN -DTERMIO -Wall -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches   -m64 -mtune=generic -Wa,--noexecstack -DPURIFY -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DWHIRLPOOL_ASM -DGHASH_ASM
+The 'numbers' are in 1000s of bytes per second processed.
+type             16 bytes     64 bytes    256 bytes   1024 bytes   8192 bytes
+sha1             66296.52k   190223.66k   421271.37k   590414.08k   725517.06
+
+
+[vagrant@localhost ~]$ openssl speed -evp aes-128-cbc                                                                                                                                                                                  
+Doing aes-128-cbc for 3s on 16 size blocks: 117151844 aes-128-cbc's in 3.00s
+Doing aes-128-cbc for 3s on 64 size blocks: 31082717 aes-128-cbc's in 3.00s
+Doing aes-128-cbc for 3s on 256 size blocks: 7970611 aes-128-cbc's in 3.00s
+Doing aes-128-cbc for 3s on 1024 size blocks: 1992422 aes-128-cbc's in 3.00s
+Doing aes-128-cbc for 3s on 8192 size blocks: 250358 aes-128-cbc's in 3.00s
+OpenSSL 1.0.1e-fips 11 Feb 2013
+built on: Tue Mar  1 15:07:53 UTC 2016
+options:bn(64,64) md2(int) rc4(16x,int) des(idx,cisc,16,int) aes(partial) idea(int) blowfish(idx) 
+compiler: gcc -fPIC -DOPENSSL_PIC -DZLIB -DOPENSSL_THREADS -D_REENTRANT -DDSO_DLFCN -DHAVE_DLFCN_H -DKRB5_MIT -m64 -DL_ENDIAN -DTERMIO -Wall -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches   -m64 -mtune=generic -Wa,--noexecstack -DPURIFY -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DWHIRLPOOL_ASM -DGHASH_ASM
+The 'numbers' are in 1000s of bytes per second processed.
+type             16 bytes     64 bytes    256 bytes   1024 bytes   8192 bytes
+aes-128-cbc     624809.83k   663097.96k   680158.81k   680080.04k   683644.25k
+
+
+
+#### After
+[vagrant@localhost cryptodev-linux-1.8]$ ls /dev/crypto 
+/dev/crypto
+[vagrant@localhost openssl-1.0.2g]$ apps/openssl version -a
+OpenSSL 1.0.2g  1 Mar 2016
+built on: reproducible build, date unspecified
+platform: linux-x86_64
+options:  bn(64,64) rc4(16x,int) des(idx,cisc,16,int) idea(int) blowfish(idx) 
+compiler: gcc -I. -I.. -I../include  -DZLIB -DOPENSSL_THREADS -D_REENTRANT -DDSO_DLFCN -DHAVE_DLFCN_H -DHAVE_CRYPTODEV -DGHASH_ASM -DWHIRLPOOL_ASM -DPURIFY -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -Wa,--noexecstack -m64 -DL_ENDIAN -O3 -Wall -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DWHIRLPOOL_ASM -DGHASH_ASM -DECP_NISTZ256_ASM
+OPENSSLDIR: "/etc/pki/tls"
+[vagrant@localhost openssl-1.0.2g]$ apps/openssl speed -evp sha1
+Doing sha1 for 3s on 16 size blocks: 8342583 sha1's in 3.00s
+Doing sha1 for 3s on 64 size blocks: 6551173 sha1's in 3.00s
+Doing sha1 for 3s on 256 size blocks: 4115423 sha1's in 3.00s
+Doing sha1 for 3s on 1024 size blocks: 1702218 sha1's in 3.00s
+Doing sha1 for 3s on 8192 size blocks: 269295 sha1's in 3.00s
+OpenSSL 1.0.2g  1 Mar 2016
+built on: reproducible build, date unspecified
+options:bn(64,64) rc4(16x,int) des(idx,cisc,16,int) aes(partial) idea(int) blowfish(idx) 
+compiler: gcc -I. -I.. -I../include  -DZLIB -DOPENSSL_THREADS -D_REENTRANT -DDSO_DLFCN -DHAVE_DLFCN_H -DHAVE_CRYPTODEV -DGHASH_ASM -DWHIRLPOOL_ASM -DPURIFY -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -Wa,--noexecstack -m64 -DL_ENDIAN -O3 -Wall -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DWHIRLPOOL_ASM -DGHASH_ASM -DECP_NISTZ256_ASM
+The 'numbers' are in 1000s of bytes per second processed.
+type             16 bytes     64 bytes    256 bytes   1024 bytes   8192 bytes
+sha1             44493.78k   139758.36k   351182.76k   581023.74k   735354.88k
+[vagrant@localhost openssl-1.0.2g]$ apps/openssl speed -evp aes-128-cbc
+Doing aes-128-cbc for 3s on 16 size blocks: 6096742 aes-128-cbc's in 0.26s
+Doing aes-128-cbc for 3s on 64 size blocks: 5403551 aes-128-cbc's in 0.23s
+Doing aes-128-cbc for 3s on 256 size blocks: 3547442 aes-128-cbc's in 0.18s
+Doing aes-128-cbc for 3s on 1024 size blocks: 1511507 aes-128-cbc's in 0.06s
+Doing aes-128-cbc for 3s on 8192 size blocks: 234791 aes-128-cbc's in 0.01s
+OpenSSL 1.0.2g  1 Mar 2016
+built on: reproducible build, date unspecified
+options:bn(64,64) rc4(16x,int) des(idx,cisc,16,int) aes(partial) idea(int) blowfish(idx) 
+compiler: gcc -I. -I.. -I../include  -DZLIB -DOPENSSL_THREADS -D_REENTRANT -DDSO_DLFCN -DHAVE_DLFCN_H -DHAVE_CRYPTODEV -DGHASH_ASM -DWHIRLPOOL_ASM -DPURIFY -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -Wa,--noexecstack -m64 -DL_ENDIAN -O3 -Wall -DOPENSSL_IA32_SSE2 -DOPENSSL_BN_ASM_MONT -DOPENSSL_BN_ASM_MONT5 -DOPENSSL_BN_ASM_GF2m -DSHA1_ASM -DSHA256_ASM -DSHA512_ASM -DMD5_ASM -DAES_ASM -DVPAES_ASM -DBSAES_ASM -DWHIRLPOOL_ASM -DGHASH_ASM -DECP_NISTZ256_ASM
+The 'numbers' are in 1000s of bytes per second processed.
+type             16 bytes     64 bytes    256 bytes   1024 bytes   8192 bytes
+aes-128-cbc     375184.12k  1503596.80k  5045250.84k 25796386.13k 192340787.20k
