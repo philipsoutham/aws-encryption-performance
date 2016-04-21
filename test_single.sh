@@ -1,6 +1,6 @@
 #!/bin/env bash
 
-for i in 0 1 2 3 4 5 6 7 8 9; do
+for i in 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19; do
     ####################### SSE ###############################
     echo "doing sse $i"
     sar -p 1 > "single_yes_ssl_yes_sse-cpu.${i}.sar.txt" &
