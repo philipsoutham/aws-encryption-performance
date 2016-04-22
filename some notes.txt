@@ -261,3 +261,14 @@ compiler: gcc -I. -I.. -I../include  -DZLIB -DOPENSSL_THREADS -D_REENTRANT -DDSO
 The 'numbers' are in 1000s of bytes per second processed.
 type             16 bytes     64 bytes    256 bytes   1024 bytes   8192 bytes
 aes-128-cbc     375184.12k  1503596.80k  5045250.84k 25796386.13k 192340787.20k
+
+~/.aws/config
+
+[default]
+region = us-west-2
+s3 =
+    max_concurrent_requests = 25
+    max_queue_size = 10000
+    multipart_threshold = 64MB
+    multipart_chunksize = 128MB
+
